@@ -39,7 +39,8 @@
         <Canvas Background="#695958" Grid.Row="0"/>
         <Canvas Background="#B6C8A9" Grid.Row="1">
             <TextBox x:Name="WorkingText" Height="250" Width="600" VerticalAlignment="Top" 
-                         Canvas.Left="90" Canvas.Top="90" Text="Text"/>
+                         Canvas.Left="90" Canvas.Top="90" Text="Text"
+                     TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" AcceptsReturn="True"/>
         </Canvas>
         <TextBox x:Name="KeyText" TextWrapping="Wrap" Text="Key" Width="600" Height="30" Grid.Row="1" 
                  VerticalAlignment="Top" Margin="90,40,0,0" HorizontalAlignment="Left"/>
