@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InformationSystemsSecurityLab2.Cipher.TritemiusCipher.LinearCipher">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Cipher\TritemiusCipher\LinearCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InformationSystemsSecurityLab2.Cipher.TritemiusCipher.NonLinearCipher">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Cipher\TritemiusCipher\NonLinearCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InformationSystemsSecurityLab2.Cipher.TritemiusCipher.SloganCipher">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Cipher\TritemiusCipher\SloganCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InformationSystemsSecurityLab2.Cipher.CaesarCipher">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Cipher\CaesarCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InformationSystemsSecurityLab2.Cipher.CipherManager">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cipher\CipherManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InformationSystemsSecurityLab2.UIControllers.FileController">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAIAAAAAEAABAAAAAAAAAA=</HashCode>
+      <FileName>UIControllers\FileController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -2,9 +2,9 @@
 
 namespace InformationSystemsSecurityLab2.Cipher
 {
-    public class CaesarCipher
+    public class CaesarCipher : ICipher
     {
-        public static string Encrypt(string input, int key)
+        public string Encrypt(string input, int key)
         {
             char charKey = (char)key;
             char[] letters = input.ToCharArray();
@@ -15,7 +15,7 @@ namespace InformationSystemsSecurityLab2.Cipher
             return new string(letters);
         }
 
-        public static string Encrypt(string input, string key)
+        public string Encrypt(string input, string key)
         {
             if (ValidateKey(key))
             {
@@ -24,7 +24,12 @@ namespace InformationSystemsSecurityLab2.Cipher
             return input;
         }
 
-        public static string Decrypt(string input, string key)
+        public string Decrypt(string input, int key)
+        {
+            return Encrypt(input, -key);
+        }
+
+        public string Decrypt(string input, string key)
         {
             if (ValidateKey(key))
             {
@@ -33,7 +38,7 @@ namespace InformationSystemsSecurityLab2.Cipher
             return input;
         }
 
-        private static bool ValidateKey(string key)
+        public bool ValidateKey(string key)
         {
             if (int.TryParse(key, out _))
             {

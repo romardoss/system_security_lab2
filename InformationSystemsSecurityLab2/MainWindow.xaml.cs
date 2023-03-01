@@ -26,7 +26,7 @@ namespace InformationSystemsSecurityLab2
         private void EncryptButton_Click(object sender, RoutedEventArgs e)
         {
             string input = WorkingText.Text;
-            string answer = CaesarCipher.Encrypt(input, KeyText.Text);
+            var answer = CipherManager.Encrypt(input, KeyText.Text);
             var fileController = new FileController();
             fileController.PrintFile(WorkingText, answer);
         }
@@ -34,7 +34,7 @@ namespace InformationSystemsSecurityLab2
         private void DecryptButton_Click(object sender, RoutedEventArgs e)
         {
             string input = WorkingText.Text;
-            string answer = CaesarCipher.Decrypt(input, KeyText.Text);
+            var answer = CipherManager.Decrypt(input, KeyText.Text);
             var fileController = new FileController();
             fileController.PrintFile(WorkingText, answer);
         }

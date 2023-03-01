@@ -71,6 +71,11 @@
       <DependentUpon>AboutWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cipher\CaesarCipher.cs" />
+    <Compile Include="Cipher\CipherManager.cs" />
+    <Compile Include="Cipher\ICipher.cs" />
+    <Compile Include="Cipher\TritemiusCipher\LinearCipher.cs" />
+    <Compile Include="Cipher\TritemiusCipher\NonLinearCipher.cs" />
+    <Compile Include="Cipher\TritemiusCipher\SloganCipher.cs" />
     <Compile Include="UIControllers\FileController.cs" />
     <Compile Include="UIControllers\IFileController.cs" />
     <Page Include="AboutWindow.xaml">
